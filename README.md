@@ -7,7 +7,7 @@ Link to [paper latex] (TODO: add arXiv link after we publish the paper)
 
 ## Getting Started
 ### Installation
-Clone the repository (TODO: add github repo) and install the package with `python setup.py install` and `pip install -e .`. 
+Clone the repository (https://github.com/amzn/orthogonal-additive-gaussian-processes) and install the package with `python setup.py install` and `pip install -e .`. 
 The main dependency is `gpflow` and we relied on `gpflow == 2.2.1`, where in particular implements the posteriors module.
 
 ### Tests
@@ -39,7 +39,7 @@ Run `pytest` to run the tests in the `tests` folder.
 	- `utils.py` contains utility functions 
 	- `plotting_utils.py` contains utility functions for plotting
 
-
+<!-- #region -->
 ## Usage
 
 **Data**
@@ -55,3 +55,13 @@ Example tutorials and scripts are in the `./example` directory.
 * Contains training scripts for UCI regression and classification
 benchmark datasets. See `./examples/uci/README_UCI.md` for details. 
 
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This project is licensed under the Apache-2.0 License.
+
+<!-- #endregion -->

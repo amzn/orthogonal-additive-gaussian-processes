@@ -7,7 +7,7 @@ Link to [paper latex] (TODO: add arXiv link after we publish the paper)
 
 ## Getting Started
 ### Installation
-Clone the repository (https://github.com/amzn/orthogonal-additive-gaussian-processes) and install the package with `python setup.py install` and `pip install -e .`. 
+Clone the repository (https://github.com/amzn/orthogonal-additive-gaussian-processes) and install the package with `python setup.py install` and `pip install -e .`. The package is tested with Python 3.7.
 The main dependency is `gpflow` and we relied on `gpflow == 2.2.1`, where in particular implements the posteriors module.
 
 ### Tests

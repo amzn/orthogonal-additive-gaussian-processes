@@ -6,7 +6,6 @@ mypy
 flake8
 jupytext
 seaborn
-ipython
 jupyter
 tqdm
 numpy

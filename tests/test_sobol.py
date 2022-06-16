@@ -142,7 +142,7 @@ def test_f4():
 
 
 @pytest.mark.skip(
-    reason="too slow a test takes about 30 seconds covered by test_sobol_indices whcih is faster"
+    reason="too slow a test takes about 30 seconds covered by test_sobol_indices which is faster"
 )
 def test_compute_sobol():
 

@@ -18,7 +18,7 @@ where ```NAME``` is the name of the dataset (regression data: ```autoMPG, Housin
 
 To visualise the functional decomposition, run 
 ```
-python example/uci/uci_plotting.py --dataset_name=NAME
+python examples/uci/uci_plotting.py --dataset_name=NAME
 ```
 This will save the plots in the ```example/uci/outputs/NAME/decomposition``` folder. 
 For illustration, we have run the scripts for the autoMPG and breast datasets, with results saved in the above output folder. 

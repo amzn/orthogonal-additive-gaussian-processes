@@ -1,8 +1,7 @@
 # Orthogonal Additive Gaussian Processes
 
 
-This is the code repo for the paper Additive Gaussian Processes Revisited. 
-Link to [paper latex] (TODO: add arXiv link after we publish the paper)
+This is the code repo for the paper Additive Gaussian Processes Revisited (https://arxiv.org/pdf/2206.09861.pdf)
 
 
 ## Getting Started

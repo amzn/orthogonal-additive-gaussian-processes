@@ -20,7 +20,7 @@ setup(
         "seaborn",
         "ipython",
         "jupyter",
-        "tqdm==4.44.1",
+        "tqdm==4.66.3",
         "tikzplotlib",
         "scikit-learn",
         "numpy",

@@ -14,5 +14,5 @@ IPython
 scikit-learn
 tikzplotlib
 scikit-learn-extra==0.2.0
-tensorflow==2.11.1
+tensorflow==2.12.1
 tensorflow_probability==0.11.0

@@ -58,7 +58,7 @@ class EmpiricalMeasure(Measure):
 
 class MOGMeasure(Measure):
     """
-    :param means: mean of the Gaussian measures
+    :param means: means of the Gaussian measures
     :param variances: variances of the Gaussian measures
     :param weights: weights on the Gaussian measures
     :return: mixture of Gaussian measure

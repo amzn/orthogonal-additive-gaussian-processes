@@ -130,7 +130,7 @@ def main():
         classification_accuracy = np.sum(
             np.abs((prob > 0.5).numpy().astype(int)[:, 0] - y_test[:, 0])
         ) / len(y_test[:, 0])
-        # clipping X_test to be in the range of training data to avoid nan error in calculating nll due to normalsing flow
+        # clipping X_test to be in the range of training data to avoid nan error in calculating nll due to normalising flow
         X_test_scaled = oak._transform_x(np.clip(X_test, x_min, x_max))
         nll = -oak.m.predict_log_density((X_test_scaled, y_test)).numpy().mean()
 

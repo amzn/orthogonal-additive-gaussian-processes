@@ -21,8 +21,8 @@ class OrthogonalRBFKernel(gpflow.kernels.Kernel):
     """
     :param base_kernel: base RBF kernel before applying orthogonality constraint
     :param measure: input measure
-    :param active_dims: active dimension
-    :return: constrained BRF kernel
+    :param active_dims: active dimensions
+    :return: constrained RBF kernel
     """
 
     def __init__(

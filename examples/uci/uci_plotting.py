@@ -14,7 +14,7 @@ from pathlib import Path
 # -
 
 
-# this script use the saved model to plot top 5 important features (Sobol)
+# this script uses the saved model to plot top 5 important features (Sobol)
 # in the decomposition
 covariate_names = {}
 covariate_names["Housing"] = [
@@ -87,7 +87,7 @@ covariate_names["heart"] = [
     "chol",
     "fbs",
     "restecg",
-    "thelach",
+    "thalach",
     "exang",
     "oldpeak",
     "slope",
